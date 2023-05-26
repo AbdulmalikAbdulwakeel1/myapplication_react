@@ -1,0 +1,71 @@
+
+.Ul{
+  color:blue;
+
+}
+.item{
+  list-style:none;
+  display:flex;
+  
+}
+.item > li{
+padding: 10px;
+
+}
+.nav{
+  display:flex;
+  justify-content: space-between;
+  align-items:center;
+  height: 70px;
+  padding: 25px 30px;
+  background-color:white;
+  
+  
+  
+}
+nav > h1{
+  color:#61DAFB;
+  font-family:'Inter,sans-seriff';
+  font-weight: 700;
+}
+nav > ul{
+  margin-right: auto;
+  color:#DEEBF8;
+  font-weight: 600;
+  font-size: 22px;
+  
+}
+main{
+ padding: 57px 27px;
+ color:white;
+ /* background-image:url(./dell.jpg);
+ background-repeat: no-repeat;
+ background-size: 150px;
+ background-position-x:right ;
+ background-position-y:70% ; */
+}
+h1 {
+  margin: 0;
+  font-size: 39px;
+  letter-spacing: -0.05em;
+}
+
+body{
+  margin:0;
+  background-color:#282D35;
+}
+nav > img {
+  margin-right: 7px;
+}
+.main--facts{
+  margin-top: 46px;
+  max-width: 400px;
+}
+.main--facts > li{
+  line-height: 19px;
+  padding-block: 10px;
+}
+.main--facts > li::marker{
+   font-size: 1.7rem;
+   color: #61DAFB;
+}
